@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{98277B0F-5FEA-4C81-A9F4-AB1A52C4D21F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frontline/ProblemOne.cs">
+    <Files>
+      <File FileName="Frontline/Program.cs" Line="6" Column="6" />
+      <File FileName="Frontline/ProblemOne.cs" Line="7" Column="5" />
+      <File FileName="Frontline/StringHelper.cs" Line="1" Column="1" />
+      <File FileName="Frontline/ProblemBase.cs" Line="1" Column="1" />
+      <File FileName="Frontline/ProblemTwo.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Frontline PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,5 @@
+/Users/seanmartin/Projects/Frontline/Frontline/bin/Debug/Frontline.exe
+/Users/seanmartin/Projects/Frontline/Frontline/bin/Debug/Frontline.pdb
+/Users/seanmartin/Projects/Frontline/Frontline/obj/x86/Debug/Frontline.csproj.CoreCompileInputs.cache
+/Users/seanmartin/Projects/Frontline/Frontline/obj/x86/Debug/Frontline.exe
+/Users/seanmartin/Projects/Frontline/Frontline/obj/x86/Debug/Frontline.pdb
