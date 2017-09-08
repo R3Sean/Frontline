@@ -3,7 +3,7 @@ Frontline Coding Challenge
 
 This repository contains a solution to the Frontline Coding Challenge as a C# .NET Console Application.
 
-The project contains classes for ProblemOne and ProblemTwo as they are described in the challenge directions.  These classes derive from a ProblemBase class which is extended for common properties in both string manipulation solutions.
+The project contains classes for ProblemOne and ProblemTwo as they are described in the challenge directions.  These classes derive from a ProblemBase class which is extended for common properties in both string manipulation solutions.  The constructors set the input properties with the values defined in the diretions by default but they can be set otherwise in the object intances.
 
 A static StringHelper class is utilized to encapsulate most of the string manipulation functions required in developing this solution.
 
