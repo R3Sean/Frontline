@@ -11,7 +11,7 @@ namespace Frontline
             /*
              * SOLUTION NUMBER ONE
              */
-			Console.WriteLine("This is the results of the Firstline Problem 1 solution:");
+			Console.WriteLine("This is the results of the Frontline Problem 1 solution:");
 			Console.WriteLine("---------------------------------------------------------");
             Console.WriteLine("Parse the string:");
 			Console.WriteLine("(id,created,employee(id,firstname,employeeType(id), lastname),location)");
@@ -56,7 +56,7 @@ namespace Frontline
              * SOLUTION NUMBER TWO
              */
 			Console.WriteLine("---------------------------------------------------------");
-            Console.WriteLine("This is the output of Firstline Problem 2 solution:");
+            Console.WriteLine("This is the output of Frontline Problem 2 solution:");
 			Console.WriteLine("---------------------------------------------------------");
             Console.WriteLine("Challenge: Reverse each word of a string but maintain the positioning of capitalization, punctuation, and special characters.");
             Console.WriteLine("Input String: My name is Albert McDonald.");
