@@ -7,7 +7,7 @@ namespace Frontline
 {
     public class ProblemOne : ProblemBase
     {
-        
+
         public ProblemOne()
         {
             //set the input string in constructor
@@ -22,19 +22,19 @@ namespace Frontline
         /// <param name="alphabetize">If set to <c>true</c> alphabetize.</param>
         public void GetOutputCollection(bool alphabetize)
         {
-            if(alphabetize)
+            if (alphabetize)
             {
-				this.OutputCollection = StringHelper.UnboxParenthesis(this.InputString).OrderBy(o => o).ToList();
+                this.OutputCollection = StringHelper.UnboxParenthesis(this.InputString).OrderBy(o => o).ToList();
 
-			}
+            }
 
             string dash = string.Empty;
-            while(OutputCollection.Where(o => o.Contains("(")).Count() > 0)
+            while (OutputCollection.Where(o => o.Contains("(")).Any())
             {
                 dash = dash + "-";
-                string straggler = OutputCollection.Where(o => o.Contains("(")).FirstOrDefault();
+                string straggler = OutputCollection.FirstOrDefault(o => o.Contains("("));
                 int index = OutputCollection.FindIndex(o => o.Contains("("));
-                if(straggler != null)
+                if (straggler != null)
                 {
                     string keeper = StringHelper.GetLeader(straggler);
                     string collection = StringHelper.GetNestedString(straggler);
@@ -59,19 +59,19 @@ namespace Frontline
         {
             List<string> pump = new List<string>();
             pump = StringHelper.UnboxParenthesis(nestedString);
-            if(alphabetize)
+            if (alphabetize)
             {
                 pump = pump.OrderBy(a => a).ToList();
             }
-            foreach(var s in pump)
+            foreach (var s in pump)
             {
                 ct++;
-                OutputCollection.Insert(ct,dashes + s);
+                OutputCollection.Insert(ct, dashes + s);
             }
 
         }
 
-		
+
 
     }
 }
